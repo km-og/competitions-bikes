@@ -1,0 +1,17 @@
+.cover__button {
+  padding: 16px 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  background: #24B47E;
+  border: 0;
+  border-radius: 4px;
+  width: 180px;
+  cursor: pointer;
+  margin-bottom: 167px;
+}
