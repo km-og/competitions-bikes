@@ -1,5 +1,13 @@
 .cover {
-  display: flex;
-  flex-direction: column;
-  position: relative;
+  padding-top: 20px;
+  margin-left: 120px;
+  column-gap: 250px;
+  display: grid;
+  grid-template-areas: 
+  "title image"
+  "text image"
+  "button image"
+  "subtitle image";
+  grid-template-columns: 4.6fr 6.1fr;
+  font-family: 'Inter';
 }

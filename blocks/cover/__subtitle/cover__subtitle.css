@@ -1,9 +1,20 @@
 .cover__subtitle {
-  margin: 0 0 0 120px;
-  font-family: 'Inter';
+  grid-area: subtitle;
+  margin: 0 0 209px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
   color: #151515;
+  position: relative;
+}
+
+.cover__subtitle::after {
+  content: "";
+  width: 132px;
+  height: 2px;
+  background-color: #D7D4D4;;
+  position: absolute;
+  margin-left: 30px;
+  top: 10px;
 }

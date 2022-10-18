@@ -1,6 +1,5 @@
 .cover__image {
-  width: 610px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  grid-area: image;
+  object-fit: contain;
+  width: 100%;
 }
