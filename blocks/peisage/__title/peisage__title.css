@@ -8,4 +8,14 @@
   letter-spacing: -0.5px;
   color: #151515;
   max-width: 460px;
+  grid-area: title;
+}
+
+@media screen and (max-width: 650px) {
+  .peisage__title {
+    margin: 0;
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 100%;
+  }
 }
