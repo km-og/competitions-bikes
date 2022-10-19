@@ -8,3 +8,29 @@
   "text image"
   "links image";
 }
+
+@media screen and (max-width: 1300px) {
+  .training {
+    column-gap: 50px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .training {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .training {
+    padding: 80px 18px 60px 18px;
+    grid-template-areas: 
+    "title"
+    "image"
+    "text"
+    "links";
+    grid-template-columns: 100%;
+    column-gap: 0;
+    row-gap: 40px;
+  }
+}
