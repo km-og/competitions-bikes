@@ -3,10 +3,3 @@
   width: 100%;
 }
 
-/* доделать */
-
-@media screen and (max-width: 320px) {
-  .cover__image {
-    padding-left: 30px;
-  }
-}

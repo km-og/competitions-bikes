@@ -9,10 +9,3 @@
   opacity: 0.7;
 }
 
-@media screen and (max-width: 320px) {
-  .cover__text {
-    margin: 0;
-    font-size: 12px;
-    line-height: 150%;
-  }
-}

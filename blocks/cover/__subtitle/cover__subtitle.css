@@ -19,10 +19,3 @@
   top: 10px;
 }
 
-/*доделать*/
-
-@media screen and (max-width: 320px) {
-  .cover__subtitle {
-    display: none;
-  }
-}
