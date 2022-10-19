@@ -14,5 +14,9 @@
 @import url(../blocks/peisage/__title/peisage__title.css);
 @import url(../blocks/peisage/__text/peisage__text.css);
 @import url(../blocks/peisage/__gallery/peisage__gallery.css);
+@import url(../blocks/peisage/__buttons/peisage__buttons.css);
+@import url(../blocks/peisage/__button/peisage__button.css);
+@import url(../blocks/peisage/__button/_left/peisage__button_left.css);
+@import url(../blocks/peisage/__button/_right/peisage__button_right.css);
 
 @import url(../blocks/footer/footer.css);
