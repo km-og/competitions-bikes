@@ -13,5 +13,7 @@
   border-radius: 4px;
   cursor: pointer;
   margin: 0 0 167px 0;
+  max-width: 180px;
+  width: 100%;
 }
 
