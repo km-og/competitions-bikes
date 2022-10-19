@@ -1,0 +1,11 @@
+.training__text {
+  grid-area: text;
+  margin: 0 0 182px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #222222;
+  opacity: 0.7;
+}

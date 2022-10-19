@@ -1,0 +1,10 @@
+.training {
+  padding: 150px 120px 120px 120px;
+  display: grid;
+  grid-template-columns: 4.6fr 5.8fr;
+  column-gap: 160px;
+  grid-template-areas: 
+  "title image"
+  "text image"
+  "links image";
+}
