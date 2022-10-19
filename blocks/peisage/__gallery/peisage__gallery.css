@@ -1,0 +1,4 @@
+.peisage__gallery {
+  display: flex;
+  column-gap: 40px;
+}
