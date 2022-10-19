@@ -2,4 +2,18 @@
   display: flex;
   column-gap: 40px;
   overflow: hidden;
+  grid-area: gallery;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .peisage__gallery {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .peisage__gallery {
+    height: 175px;
+  }
 }

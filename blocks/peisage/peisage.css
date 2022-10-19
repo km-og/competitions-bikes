@@ -1,3 +1,37 @@
 .peisage {
   padding: 60px 0 60px 120px;
+  display: grid;
+  grid-template-areas: 
+  "title"
+  "text"
+  "gallery"
+  "buttons";
+  position: relative;
+}
+
+@media screen and (max-width: 700px) {
+  .peisage {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .peisage {
+    padding: 80px 18px 40px 18px;
+    grid-template-areas: 
+    "title buttons"
+    "gallery gallery"
+    "text text";
+    row-gap: 40px;
+    grid-template-columns: auto;
+  }
+
+  .peisage::before {
+    content: "";
+    top: 40px;
+    left: 18px;
+    right: 18px;
+    border: 1px solid #E3E3E3;
+    position: absolute;
+  }
 }
