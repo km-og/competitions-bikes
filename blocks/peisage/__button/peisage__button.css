@@ -9,3 +9,7 @@
   object-fit: contain;
   cursor: pointer;
 }
+
+.peisage__button:hover {
+  opacity: 0.7;
+}
