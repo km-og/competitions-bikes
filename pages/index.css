@@ -13,6 +13,13 @@
 @import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
+@import url(../blocks/merckx/merckx.css);
+@import url(../blocks/merckx/__image/merckx__image.css);
+@import url(../blocks/merckx/__title/merckx__title.css);
+@import url(../blocks/merckx/__author/merckx__author.css);
+@import url(../blocks/merckx/__name/merckx__name.css);
+@import url(../blocks/merckx/__subline/merckx__subline.css);
+
 @import url(../blocks/peisage/peisage.css);
 @import url(../blocks/peisage/__title/peisage__title.css);
 @import url(../blocks/peisage/__text/peisage__text.css);
@@ -35,6 +42,7 @@
 }
 .menu-burger__toggle {
   display: none;
+  /* opacity: 0; */
 }
 .menu-burger__button {
 }
@@ -52,6 +60,7 @@
   background-color: #f4f4f4;
   max-width: 1440px;
   box-sizing: border-box;
+  z-index: 300;
 }
 .menu__item {
   padding-left: 34px;
@@ -64,63 +73,166 @@
 
 @media screen and (max-width: 767px) {
   .header {
-    width: 100%;
+    /* width: 100%;
     position: sticky;
-    top: 0;
+    top: 0; */
+    width: 100vw;
+    position: relative;
+    color: #151515;
+    text-align: center;
+    height: 74px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
   }
   .menu-burger__toggle {
+    /* opacity: 1; */
   }
   .menu-burger__button {
-    /* float: right; */
-    /* justify-content: end; */
-    /* padding: 20px; */
+    /* float: right;
+    justify-content: end;
+    padding: 20px;
+    cursor: pointer; */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+    line-height: 74px;
   }
   .menu-burger__line {
-    display: block;
+    /* display: block;
     height: 3px;
     width: 22px;
     position: relative;
-    /* color: #151515; */
-    color: #151515;
+    /* color: #151515;
+   background-color: #151515;
+    background: var(--#151515); */
+    position: absolute;
+    top: 28px;
+    right: 18px;
+    background-color: #151515;
+    height: 3px;
+    width: 22px;
+  }
+  .menu-burger__line:nth-child(2) {
+    top: 36px;
+  }
+  .menu-burger__line:nth-child(3) {
+    top: 36px;
+  }
+  .menu-burger__line:nth-child(4) {
+    top: 44px;
   }
   .menu-burger__line::before {
-    display: block;
+    /* display: block;
     height: 100%;
     width: 100%;
     position: absolute;
-    /* color: #151515; */
-    color: #151515;
+    color: #151515; 
+    background-color: #151515;
     top: 5px;
+    content: ''; */
   }
   .menu-burger__line::after {
-    display: block;
+    /* display: block;
     height: 100%;
     width: 100%;
     position: absolute;
-    /* color: #151515; */
-    color: #151515;
-    background: var(--white);
+    color: #151515; 
+    background-color: #151515;
     top: -5px;
+    content: ''; */
   }
   .menu {
-    width: 100%;
+    /* width: 100%;
     height: 50%;
     position: fixed;
     overflow: hidden;
-    /* background-color: #151515; */
-
+    /* background-color: #151515;  
     max-height: 0;
-    transition: max-height 0.5s ease-in;
-  }
-  .menu__item {
+    transition: max-height 0.5s ease-in; */
     display: block;
+    /* position: absolute; */
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    overflow: hidden;
+    max-height: 0;
+    font-size: 0;
+  }
+
+  .menu__item {
+    /* display: block;
     padding: 25px;
+    color: #f4f4f4; */
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #151515;
     color: #f4f4f4;
+    text-decoration: none;
+  }
+  #menu-burger__toggle:checked ~ .menu {
+    max-height: 500px;
+    font-size: 14px;
+    z-index: 300;
   }
   .menu__item:hover {
-    background-color: #f4f4f4;
-    opacity: 0.2;
+    /* background-color: #f4f4f4;
+    opacity: 0.2; */
   }
 }
-.menu__item:hover {
+
+.bicycle {
+  height: 724px;
+  display: flex;
+  margin-top: 0 auto;
+  max-width: 1200px;
+}
+.bicycle__header {
+}
+.bicycle__title {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+}
+.bicycle__tabs {
+  position: relative;
+}
+.bicycle__tab {
+  display: inline-block;
+}
+.bicycle__tab-first {
+  display: none;
+}
+.bicycle__tab-name {
+  display: inline-block;
+  background-color: #f4f4f4;
+  padding-left: 40px;
+  /* justify-content: end; */
+}
+.bicycle__tab-items {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: absolute;
+  padding: 120px 0 60px;
+}
+.bicycle__item {
+}
+.bicycle__container-image {
+}
+.bicycle__image {
+}
+.bicycle__subline {
+  color: #151515;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
 }

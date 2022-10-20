@@ -1,0 +1,9 @@
+.merckx {
+  display: grid;
+  grid-template-columns: 0.54fr 0.46fr;
+  grid-template-areas:
+    "image title"
+    "image author";
+  max-width: 1200px;
+  margin: 120px auto 0;
+}

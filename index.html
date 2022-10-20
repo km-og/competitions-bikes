@@ -17,8 +17,12 @@
     <header class="header">
       <input class="menu-burger__toggle" id="menu-burger__toggle" type="checkbox">
       <label class="menu-burger__button" for="menu-burger__toggle">
-        <span class="menu-burger__line"></span>
+        <!-- <span class="menu-burger__line"></span> -->
       </label>
+      <div class="menu-burger__line"></div>
+      <div class="menu-burger__line"></div>
+      <div class="menu-burger__line"></div>
+      <div class="menu-burger__line"></div>
       <nav>
         <ul class="menu">
           <li><a class="menu__item link" href="#">Покрытия и градиенты</a></li>
@@ -34,9 +38,19 @@
         <p class="cover__text">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно
           только определиться с выбором велосипеда и отправиться в путь.</p>
         <button class="cover__button">Подробнее</button>
-        <img src="./images/cover__image.png" alt="Лесная песчная дорога" class="cover__image">
+        <img src="./images/cover__image.png" alt="Лесная песчаная дорога" class="cover__image">
         <p class="cover__subtitle">Cannondale Systemsix</p>
       </section>
+
+      <section class="merckx">
+        <img src="./images/merckx__image.png" alt="Горная дорога" class="merckx__image">
+        <h2 class="merckx__title">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
+        <div class="merckx__author">
+          <p class="merckx__name">Эдди Меркс</p>
+          <p class="merckx__subline">Велогонщик</p>
+        </div>
+      </section>
+
       <section class="peisage">
         <h2 class="peisage__title">Шоссе</h2>
         <p class="peisage__text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или
@@ -50,6 +64,59 @@
           <button class="peisage__button peisage__button_right"></button>
         </div>
       </section>
+
+      <section class="bicycle">
+        <!-- <div class="bicycle__header"> -->
+        <h2 class="bicycle__title">Велосипеды</h2>
+
+        <div class="bicycle__tabs">
+          <div class="bicycle__tab">
+            <input type="radio" class="bicycle__tab-first" id="bicycle__tab-first">
+            <label for="bicycle__tab-first" class="bicycle__tab-name">Шоссе</label>
+
+            <div class="bicycle__tab-items">
+              <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
+                class="bicycle__item link">
+                <div class="bicycle__container-image">
+                  <img src="./images/bicycle__caledonia.png" alt="велосипед" class="bicycle__image">
+                </div>
+                <p class="bicycle__subline">Cervelo Caledonia-5</p>
+              </a>
+              <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+                class="bicycle__item link">
+                <div class="bicycle__container-image">
+                  <img src="./images/bicycle__himod.png" alt="велосипед" class="bicycle__image">
+                </div>
+                <p class="bicycle__subline">Cannondale Systemsix Himod</p>
+              </a>
+              <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
+                class="bicycle__item link">
+                <div class="bicycle__container-image">
+                  <img src="./images/bicycle__SL.png" alt="велосипед" class="bicycle__image">
+                </div>
+                <p class="bicycle__subline">Trek Domane SL-7</p>
+              </a>
+
+            </div>
+
+          </div>
+
+          <div class="bicycle__tab">
+            <input type="radio" class="bicycle__tab-first" id="bicycle__tab-first">
+            <label for="bicycle__tab-first" class="bicycle__tab-name">Грэвел</label>
+            <div class="bicycle__tab-items"></div>
+          </div>
+          <div class="bicycle__tab">
+            <input type="radio" class="bicycle__tab-first" id="bicycle__tab-first">
+            <label for="bicycle__tab-first" class="bicycle__tab-name">TT</label>
+            <div class="bicycle__tab-items"></div>
+          </div>
+
+
+        </div>
+
+      </section>
+
       <section class="training">
         <h2 class="training__title">Тренировки</h2>
         <p class="training__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать
