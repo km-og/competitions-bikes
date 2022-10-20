@@ -9,6 +9,7 @@
   z-index: 1;
   padding: 28px 120px;
   display: flex;
+  justify-content: flex-end;
 }
 
 @media screen and (max-width: 767px) {
