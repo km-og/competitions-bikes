@@ -1,0 +1,13 @@
+.quotation__name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 767px) {
+  .quotation__name {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

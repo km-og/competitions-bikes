@@ -13,12 +13,12 @@
 @import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
-@import url(../blocks/merckx/merckx.css);
-@import url(../blocks/merckx/__image/merckx__image.css);
-@import url(../blocks/merckx/__title/merckx__title.css);
-@import url(../blocks/merckx/__author/merckx__author.css);
-@import url(../blocks/merckx/__name/merckx__name.css);
-@import url(../blocks/merckx/__subline/merckx__subline.css);
+@import url(../blocks/quotation/quotation.css);
+@import url(../blocks/quotation/__image/quotation__image.css);
+@import url(../blocks/quotation/__title/quotation__title.css);
+@import url(../blocks/quotation/__author/quotation__author.css);
+@import url(../blocks/quotation/__name/quotation__name.css);
+@import url(../blocks/quotation/__subline/quotation__subline.css);
 
 @import url(../blocks/peisage/peisage.css);
 @import url(../blocks/peisage/__title/peisage__title.css);

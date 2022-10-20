@@ -1,0 +1,16 @@
+.quotation__title {
+  grid-area: title;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .quotation__title {
+    font-size: 23px;
+    line-height: 29px;
+  }
+}
+

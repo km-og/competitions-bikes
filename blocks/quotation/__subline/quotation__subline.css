@@ -1,0 +1,15 @@
+.quotation__subline {
+  margin: 6px 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #222222;
+}
+
+@media screen and (max-width: 767px) {
+  .quotation__subline {
+    margin-top: 4px;
+    font-size: 10px;
+    line-height: 16px;
+  }
+}

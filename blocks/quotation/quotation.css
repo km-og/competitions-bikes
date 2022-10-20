@@ -1,0 +1,38 @@
+.quotation {
+  display: grid;
+  grid-template-columns: 5.4fr 4.6fr;
+  grid-template-areas:
+    "image title"
+    "image author";
+  padding: 120px 120px 60px;
+  column-gap: 80px;
+  position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+  .quotation {
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .quotation {
+    grid-template-areas: 
+    "image"
+    "title"
+    "author";
+    grid-template-columns: auto;
+    padding: 60px 18px 40px;
+    column-gap: 0;
+    row-gap: 40px;
+  }
+
+  .quotation::before {
+    content: "";
+    top: 40px;
+    left: 18px;
+    right: 18px;
+    border: 1px solid #E3E3E3;
+    position: absolute;
+}
+}
