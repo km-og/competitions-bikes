@@ -8,3 +8,18 @@
   line-height: 109%;
   letter-spacing: -0.5px;
 }
+
+@media screen and (max-width: 1300px) {
+  .cover__title {
+    font-size: 40px;
+    margin: 0 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    margin: 0;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

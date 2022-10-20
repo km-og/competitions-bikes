@@ -3,3 +3,9 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1300px) {
+  .cover__image {
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+}
