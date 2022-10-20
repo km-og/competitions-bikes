@@ -1,0 +1,13 @@
+.bicycle__dot {
+
+}
+
+@media screen and (max-width: 767px) {
+  .bicycle__dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #CACACA;
+    cursor: pointer;
+  }
+}

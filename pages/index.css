@@ -41,6 +41,9 @@
 @import url(../blocks/bicycle/__link/bicycle__link.css);
 @import url(../blocks/bicycle/__image/bicycle__image.css);
 @import url(../blocks/bicycle/__subline/bicycle__subline.css);
+@import url(../blocks/bicycle/__buttons/bicycle__buttons.css);
+@import url(../blocks/bicycle/__dot/bicycle__dot.css);
+@import url(../blocks/bicycle/__dot/_active/bicycle__dot_active.css);
 
 @import url(../blocks/traning/training.css);
 @import url(../blocks/traning/__title/training__title.css);

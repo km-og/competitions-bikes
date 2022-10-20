@@ -1,0 +1,14 @@
+.bicycle__buttons {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .bicycle__buttons {
+    display: flex;
+    column-gap: 5px;
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+    justify-self: center;
+  }
+}

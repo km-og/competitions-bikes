@@ -9,6 +9,8 @@
 @media screen and (max-width: 767px) {
   .bicycle__image {
     padding: 14.95px;
-    width: 254px;
+    width: 234.11px;
+    border-radius: 0;
+    box-shadow: none;
   }
 }
