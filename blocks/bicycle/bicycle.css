@@ -1,0 +1,9 @@
+.bicycle {
+  padding: 60px 120px;
+  display: grid;
+  grid-template-areas: 
+  "title menu"
+  "gallery gallery";
+  grid-template-columns: 1fr 1fr;
+  row-gap: 120px;
+}

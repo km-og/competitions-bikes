@@ -29,6 +29,18 @@
 @import url(../blocks/peisage/__button/_left/peisage__button_left.css);
 @import url(../blocks/peisage/__button/_right/peisage__button_right.css);
 
+@import url(../blocks/bicycle/bicycle.css);
+@import url(../blocks/bicycle/__title/bicycle__title.css);
+@import url(../blocks/bicycle/__menu/bicycle__menu.css);
+@import url(../blocks/bicycle/__types/bicycle__types.css);
+@import url(../blocks/bicycle/__type/bicycle__type.css);
+@import url(../blocks/bicycle/__type/_active/bicycle__type_active.css);
+@import url(../blocks/bicycle/__gallery/bicycle__gallery.css);
+@import url(../blocks/bicycle/__item/bicycle__item.css);
+@import url(../blocks/bicycle/__link/bicycle__link.css);
+@import url(../blocks/bicycle/__image/bicycle__image.css);
+@import url(../blocks/bicycle/__subline/bicycle__subline.css);
+
 @import url(../blocks/traning/training.css);
 @import url(../blocks/traning/__title/training__title.css);
 @import url(../blocks/traning/__text/training__text.css);
@@ -188,35 +200,8 @@
   }
 }
 
-.bicycle {
-  height: 724px;
-  display: flex;
-  margin-top: 0 auto;
-  max-width: 1200px;
-}
-.bicycle__header {
-}
-.bicycle__title {
-  font-size: 55px;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: -0.5px;
-}
-.bicycle__tabs {
-  position: relative;
-}
-.bicycle__tab {
-  display: inline-block;
-}
-.bicycle__tab-first {
-  display: none;
-}
-.bicycle__tab-name {
-  display: inline-block;
-  background-color: #f4f4f4;
-  padding-left: 40px;
-  /* justify-content: end; */
-}
+
+
 .bicycle__tab-items {
   display: flex;
   max-width: 1200px;

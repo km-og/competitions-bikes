@@ -1,0 +1,4 @@
+.bicycle__menu {
+  grid-area: menu;
+  align-self: flex-end;
+}

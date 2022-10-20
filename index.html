@@ -66,53 +66,40 @@
       </section>
 
       <section class="bicycle">
-        <!-- <div class="bicycle__header"> -->
         <h2 class="bicycle__title">Велосипеды</h2>
-
-        <div class="bicycle__tabs">
-          <div class="bicycle__tab">
-            <input type="radio" class="bicycle__tab-first" id="bicycle__tab-first">
-            <label for="bicycle__tab-first" class="bicycle__tab-name">Шоссе</label>
-
-            <div class="bicycle__tab-items">
-              <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
-                class="bicycle__item link">
-                <div class="bicycle__container-image">
-                  <img src="./images/bicycle__caledonia.png" alt="велосипед" class="bicycle__image">
-                </div>
-                <p class="bicycle__subline">Cervelo Caledonia-5</p>
-              </a>
-              <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
-                class="bicycle__item link">
-                <div class="bicycle__container-image">
-                  <img src="./images/bicycle__himod.png" alt="велосипед" class="bicycle__image">
-                </div>
-                <p class="bicycle__subline">Cannondale Systemsix Himod</p>
-              </a>
-              <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
-                class="bicycle__item link">
-                <div class="bicycle__container-image">
-                  <img src="./images/bicycle__SL.png" alt="велосипед" class="bicycle__image">
-                </div>
-                <p class="bicycle__subline">Trek Domane SL-7</p>
-              </a>
-
-            </div>
-
-          </div>
-
-          <div class="bicycle__tab">
-            <input type="radio" class="bicycle__tab-first" id="bicycle__tab-first">
-            <label for="bicycle__tab-first" class="bicycle__tab-name">Грэвел</label>
-            <div class="bicycle__tab-items"></div>
-          </div>
-          <div class="bicycle__tab">
-            <input type="radio" class="bicycle__tab-first" id="bicycle__tab-first">
-            <label for="bicycle__tab-first" class="bicycle__tab-name">TT</label>
-            <div class="bicycle__tab-items"></div>
-          </div>
-
-
+        <nav class="bicycle__menu">
+          <ul class="bicycle__types">
+            <li>
+              <p class="bicycle__type bicycle__type_active">Шоссе</p>
+            </li>
+            <li>
+              <p class="bicycle__type">Грэвел</p>
+            </li>
+            <li>
+              <p class="bicycle__type">ТТ</p>
+            </li>
+          </ul>
+        </nav>
+        <div class="bicycle__gallery">
+          <figure class="bicycle__item">
+            <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN"
+              class="bicycle__link link">
+              <img src="./images/bicycle__caledonia.png" alt="велосипед" class="bicycle__image"></a>
+            <figcaption class="bicycle__subline">Cervelo Caledonia-5</figcaption>
+          </figure>
+          <figure class="bicycle__item">
+            <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+              class="bicycle__link link">
+              <img src="./images/bicycle__himod.png" alt="велосипед" class="bicycle__image">
+            </a>
+            <figcaption class="bicycle__subline">Cannondale Systemsix Himod</figcaption>
+          </figure>
+          <figure class="bicycle__item">
+            <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
+              class="bicycle__link link">
+              <img src="./images/bicycle__SL.png" alt="велосипед" class="bicycle__image"></a>
+            <figcaption class="bicycle__subline">Trek Domane SL-7</figcaption>
+          </figure>
         </div>
 
       </section>

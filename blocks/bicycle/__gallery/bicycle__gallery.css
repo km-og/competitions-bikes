@@ -1,0 +1,5 @@
+.bicycle__gallery {
+  grid-area: gallery;
+  display: flex;
+  column-gap: 30px;
+}
