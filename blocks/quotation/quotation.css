@@ -1,6 +1,6 @@
 .quotation {
   display: grid;
-  grid-template-columns: 5.4fr 4.6fr;
+  grid-template-columns: 6.5fr 4.7fr;
   grid-template-areas:
     "image title"
     "image author";
