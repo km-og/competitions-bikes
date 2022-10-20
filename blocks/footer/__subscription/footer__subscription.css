@@ -1,0 +1,20 @@
+.footer__subscription {
+  width: 340px;
+  background: #EFEFEF;
+  border: 1px solid rgba(199, 199, 199, 0.5);
+  border-radius: 4px;
+  padding: 11px 0 11px 20px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__subscription {
+    width: 100%;
+    padding: 11px 0 11px 20px;
+    margin-bottom: 59px;
+  }
+}
