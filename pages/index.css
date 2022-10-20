@@ -32,6 +32,7 @@
 @import url(../blocks/bicycle/bicycle.css);
 @import url(../blocks/bicycle/__title/bicycle__title.css);
 @import url(../blocks/bicycle/__menu/bicycle__menu.css);
+@import url(../blocks/bicycle/__select/bicycle__select.css);
 @import url(../blocks/bicycle/__types/bicycle__types.css);
 @import url(../blocks/bicycle/__type/bicycle__type.css);
 @import url(../blocks/bicycle/__type/_active/bicycle__type_active.css);

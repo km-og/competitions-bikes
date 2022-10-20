@@ -6,4 +6,27 @@
   "gallery gallery";
   grid-template-columns: 1fr 1fr;
   row-gap: 120px;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .bicycle {
+    padding: 80px 18px 40px;
+    grid-template-areas: 
+    "title"
+    "select"
+    "gallery"
+    "buttons";
+    grid-template-columns: auto;
+    row-gap: 0;
+  }
+
+  .bicycle::before {
+    content: "";
+    top: 40px;
+    left: 18px;
+    right: 18px;
+    border: 1px solid #E3E3E3;
+    position: absolute;
+  }
 }
